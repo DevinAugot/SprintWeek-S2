@@ -1,0 +1,516 @@
+@import url("https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,300&family=Kaushan+Script&family=Poppins:wght@300&display=swap");
+
+* {
+  /* flex-direction: content; */
+  font-family: "Imbue", serif;
+  box-sizing: border-box;
+}
+
+#header1 {
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+  /* margin-bottom: 23px; */
+  width: fixed;
+  height: fixed;
+  margin-top: 0px;
+  background: rgba(46, 210, 245, 0.75);
+  mix-blend-mode: normal;
+  border: 4px solid #000000;
+  box-shadow: 0px 6px 8.53516px rgba(0, 0, 0, 0.25);
+
+  font-family: "Imbue", serif;
+  font-weight: 400;
+  font-size: 80px;
+
+  color: #000000;
+
+  text-shadow: 9px 8.53516px 2.13379px rgba(0, 0, 0, 0.25);
+}
+#icon {
+  border: 2px solid #000000;
+  /* margin-right: 50rem; */
+  /* need to align this picture better */
+  position: relative;
+  border-radius: 25px;
+  width: 120px;
+  height: 120px;
+
+  /* tried to align picture on left hand side with right margin but couldnt get it to work whatsoever, also tried to line up text as well the best i could, doesnt look to bad as is though */
+}
+#btn1 {
+  text-align: center;
+  font-family: "Imbue", serif;
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 25px;
+
+  border: 1px solid rgba(4, 4, 4, 0.75);
+  cursor: pointer;
+  color: #030303;
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+  background-color: rgba(201, 21, 177, 0.839);
+}
+#btn2 {
+  text-align: center;
+  font-family: "Imbue", serif;
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 25px;
+
+  border: 1px solid rgba(4, 4, 4, 0.75);
+  cursor: pointer;
+  color: #030303;
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+  background-color: rgba(201, 21, 177, 0.839);
+}
+
+#outer {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.inner {
+  display: inline-block;
+  width: 25%;
+  margin-right: 25px;
+}
+#btn3 {
+  text-align: center;
+  font-family: "Imbue", serif;
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 25px;
+
+  border: 1px solid rgba(4, 4, 4, 0.75);
+  cursor: pointer;
+  color: #030303;
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+  background-color: rgba(201, 21, 177, 0.839);
+}
+
+#pic1 {
+  background: url(../html/images/homepage.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#body {
+  background: url(../html/images/menubackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#foot {
+  font-family: "Imbue", serif;
+  font-size: 1.4rem;
+  text-align: right;
+  color: rgb(240, 5, 5);
+}
+#menu1 {
+  text-align: center;
+  float: right;
+  width: 200px;
+  height: 100px;
+
+  background: rgba(231, 90, 124, 0.9);
+  box-shadow: 0px 8.53516px 8.53516px rgba(0, 0, 0, 0.25);
+  border-radius: 23.4717px;
+
+  /* Inside auto layout */
+  flex: auto;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Maniuplate spacing here between coloumns */
+.column {
+  border-radius: 30px;
+  float: inherit;
+  width: 20%;
+  padding: 20px;
+  margin: 40px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 26px;
+  cursor: pointer;
+  color: rgb(6, 6, 6);
+  /* display: inline-flex; this gives better dispersion across entire page ask allison */
+  display: inline-flex;
+  position: center;
+  box-shadow: 0px 6px 8.5px rgba(0, 0, 0, 0.792);
+}
+
+.containerTab {
+  font-size: 25px;
+  padding: 25px;
+  color: rgb(7, 7, 7);
+  box-shadow: 0px 6px 8.53516px rgba(0, 0, 0, 0.25);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: rgb(253, 0, 0);
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/* item description buttons */
+#b1 {
+  text-align: center;
+  border: 2px solid #0808089b;
+  max-width: 1500px;
+  border-radius: 25px;
+  width: fixed;
+  height: fixed;
+  margin: 0 auto;
+  font-family: "Imbue", serif;
+  padding-bottom: 30px;
+  background: rgba(46, 210, 245, 0.75);
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+}
+
+#b2 {
+  text-align: center;
+  border: 2px solid #0808089b;
+  max-width: auto;
+  border-radius: 25px;
+  width: fixed;
+  height: fixed;
+  margin: 0 auto;
+  font-family: "Imbue", serif;
+  padding-bottom: 30px;
+  background: rgba(46, 210, 245, 0.75);
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+}
+#b3 {
+  text-align: center;
+  border: 2px solid #0808089b;
+  max-width: auto;
+  border-radius: 25px;
+  width: fixed;
+  height: fixed;
+  margin: 0 auto;
+  font-family: "Imbue", serif;
+  padding-bottom: 30px;
+  background: rgba(46, 210, 245, 0.75);
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+}
+#b4 {
+  text-align: center;
+  border: 2px solid #0808089b;
+  max-width: auto;
+  border-radius: 25px;
+  width: fixed;
+  height: fixed;
+  margin: 0 auto;
+  font-family: "Imbue", serif;
+  padding-bottom: 30px;
+  background: rgba(46, 210, 245, 0.75);
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+}
+#b5 {
+  text-align: center;
+  border: 2px solid #0808089b;
+  max-width: auto;
+  border-radius: 25px;
+  width: fixed;
+  height: fixed;
+  margin: 0 auto;
+  font-family: "Imbue", serif;
+  padding-bottom: 30px;
+  background: rgba(46, 210, 245, 0.75);
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+}
+#b6 {
+  text-align: center;
+  border: 2px solid #0808089b;
+  max-width: auto;
+  border-radius: 25px;
+  width: fixed;
+  height: fixed;
+  font-family: "Imbue", serif;
+  margin: 10px;
+  padding-bottom: 30px;
+  background: rgba(46, 210, 245, 0.75);
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+}
+#b7 {
+  text-align: center;
+  border: 2px solid #0808089b;
+  max-width: auto;
+  border-radius: 25px;
+  width: fixed;
+  height: fixed;
+  margin: 0 auto;
+  font-family: "Imbue", serif;
+  padding-bottom: 30px;
+  background: rgba(46, 210, 245, 0.75);
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+}
+#b8 {
+  text-align: center;
+  border: 2px solid #0808089b;
+  max-width: auto;
+  border-radius: 25px;
+  width: fixed;
+  height: fixed;
+  margin: 0 auto;
+  font-family: "Imbue", serif;
+  padding-bottom: 30px;
+  background: rgba(46, 210, 245, 0.75);
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+}
+#b9 {
+  text-align: center;
+  border: 2px solid #0808089b;
+  max-width: auto;
+  border-radius: 25px;
+  width: fixed;
+  height: fixed;
+  margin: 0 auto;
+  font-family: "Imbue", serif;
+  padding-bottom: 30px;
+  background: rgba(46, 210, 245, 0.75);
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+}
+#b10 {
+  text-align: center;
+  border: 2px solid #0808089b;
+  max-width: auto;
+  border-radius: 25px;
+  width: fixed;
+  height: fixed;
+  margin: 0 auto;
+  font-family: "Imbue", serif;
+  padding-bottom: 30px;
+  background: rgba(46, 210, 245, 0.75);
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+}
+#b11 {
+  text-align: center;
+  border: 2px solid #0808089b;
+  max-width: auto;
+  border-radius: 25px;
+  width: fixed;
+  height: fixed;
+  margin: 0 auto;
+  font-family: "Imbue", serif;
+  padding-bottom: 30px;
+  background: rgba(46, 210, 245, 0.75);
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+}
+#b12 {
+  font-family: "Imbue", serif;
+  text-align: center;
+  border: 2px solid #0808089b;
+  max-width: auto;
+  border-radius: 25px;
+  width: fixed;
+  height: fixed;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  background: rgba(46, 210, 245, 0.75);
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+}
+
+/* Order online page CSS starts here */
+.Flex-Container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-right:555px;
+}
+#body2 {
+  background: url(../html/images/orderpage.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#window1 {
+  border-radius: 25px;
+  padding: 10px;
+  width: fixed;
+  height: 930px;
+  border-radius: 25px;
+  padding: 10px;
+  background: rgba(46, 210, 245, 0.75);
+  mix-blend-mode: normal;
+  border: 2px solid #000000;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  font-family: "Imbue", serif;
+  font-weight: 400;
+  font-size: 80px;
+  color: #000000;
+  text-shadow: 9px 12px 2.13379px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  position: relative;
+  background: rgba(46, 210, 245, 0.81);
+  border: 3px solid #00000076;
+  border-radius: 35px;
+}
+#window2 {
+  border-radius: 25px;
+  padding: 10px;
+  width: fixed;
+  height: 910px;
+  padding: 10px;
+  background: rgba(46, 210, 245, 0.75);
+  mix-blend-mode: normal;
+  border: 2px solid #00000009;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+  color: #000000;
+  text-shadow: 9px 12px 2.13379px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  position: relative;
+  background: rgba(247, 249, 249, 0.81);
+  border-radius: 35px;
+}
+#window3 {
+  /* having issues here getting this window with customer information to resize with rest of window */
+
+  /* container for customer information */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 1);
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  margin-left: 100px;
+  left: 400px;
+  top: 0px;
+  bottom: 125px;
+  flex-direction: column;
+  border: 2px solid rgba(4, 4, 4, 0.75);
+  background: rgba(255, 133, 162, 0.7);
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: inline-flex;
+}
+#window4{
+  text-align: center;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 1);
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  margin-left: 100px;
+  left: 412px;
+  top: 527px;
+  bottom: 125px;
+  flex-direction: column;
+  border: 2px solid rgba(4, 4, 4, 0.75);
+  background: rgba(255, 133, 162, 0.7);
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: inline-flex;
+}
+#check {
+  size: 20px;
+}
+#inputs {
+  display: contents;
+  font-family: "Imbue", serif;
+  position: relative;
+  size: 50px;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+#qty {
+  margin-left: 400px;
+  margin-bottom: 300px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+#placeorder {
+  text-align: center;
+  font-family: "Imbue", serif;
+  font-size: 1.5rem;
+  width: 20%;
+  border-radius: 25px;
+  border: 1px solid rgba(4, 4, 4, 0.75);
+  cursor: pointer;
+  color: #030303;
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+  background-color: rgba(201, 21, 177, 0.839);
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+#address {
+  margin-top: 300px;
+  margin-left: 150px;
+}
+#label-name {
+  margin-top: 300px;
+  margin-left: 150px;
+}
+#coupon {
+  margin-top: 300px;
+  margin-left: 150px;
+}
+
+#labelwords1 {
+  margin-left: 106px;
+}
+#labelwords2 {
+  margin-left: 273px;
+}
+#labelwords3 {
+  margin-left: 275px;
+}
+#labelwords4 {
+  margin-left: 250px;
+}
+#labelwords5 {
+  margin-left: 94px;
+}
+#labelwords6 {
+  margin-left: 255px;
+}
+#labelwords7 {
+  margin-left: 180px;
+}
+#labelwords8 {
+  margin-left: 244px;
+}
+#labelwords9 {
+  margin-left: 264px;
+}
+#labelwords10 {
+  margin-left: 127px;
+}
+#labelwords11 {
+  margin-left: 210px;
+}
+#labelwords12 {
+  margin-left: 210px;
+}
+#custinfo {
+  font-display: center;
+  font-size: 40px;
+  margin-left: 130px;
+  margin-top: 0px;
+}
