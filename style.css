@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,300&family=Kaushan+Script&family=Poppins:wght@300&display=swap");
 
 * {
-  /* flex-direction: content; */
   font-family: "Imbue", serif;
   box-sizing: border-box;
 }
@@ -10,7 +9,6 @@
   text-align: center;
   border-radius: 25px;
   padding: 10px;
-  /* margin-bottom: 23px; */
   width: fixed;
   height: fixed;
   margin-top: 0px;
@@ -29,14 +27,10 @@
 }
 #icon {
   border: 2px solid #000000;
-  /* margin-right: 50rem; */
-  /* need to align this picture better */
   position: relative;
   border-radius: 25px;
   width: 120px;
   height: 120px;
-
-  /* tried to align picture on left hand side with right margin but couldnt get it to work whatsoever, also tried to line up text as well the best i could, doesnt look to bad as is though */
 }
 #btn1 {
   text-align: center;
@@ -137,7 +131,6 @@
   font-size: 26px;
   cursor: pointer;
   color: rgb(6, 6, 6);
-  /* display: inline-flex; this gives better dispersion across entire page ask allison */
   display: inline-flex;
   position: center;
   box-shadow: 0px 6px 8.5px rgba(0, 0, 0, 0.792);
@@ -331,14 +324,14 @@
 }
 
 /* Order online page CSS starts here */
-.Flex-Container{
+.Flex-Container {
+  margin-right: 600px;
   display: flex;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-evenly;
-  margin-right:555px;
 }
 #body2 {
   background: url(../html/images/orderpage.jpg);
@@ -352,7 +345,7 @@
   border-radius: 25px;
   padding: 10px;
   width: fixed;
-  height: 930px;
+  height: 975px;
   border-radius: 25px;
   padding: 10px;
   background: rgba(46, 210, 245, 0.75);
@@ -374,7 +367,7 @@
   border-radius: 25px;
   padding: 10px;
   width: fixed;
-  height: 910px;
+  height: 950px;
   padding: 10px;
   background: rgba(46, 210, 245, 0.75);
   mix-blend-mode: normal;
@@ -389,17 +382,15 @@
   border-radius: 35px;
 }
 #window3 {
-  /* having issues here getting this window with customer information to resize with rest of window */
-
   /* container for customer information */
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 1);
   position: absolute;
   width: 500px;
   height: 400px;
-  margin-left: 100px;
-  left: 400px;
+  margin-right: 100px;
+  left: 550px;
   top: 0px;
-  bottom: 125px;
+  bottom: 100px;
   flex-direction: column;
   border: 2px solid rgba(4, 4, 4, 0.75);
   background: rgba(255, 133, 162, 0.7);
@@ -407,16 +398,17 @@
   box-sizing: border-box;
   display: inline-flex;
 }
-#window4{
+#window4 {
   text-align: center;
+ font-size: 70px;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 1);
   position: absolute;
   width: 500px;
   height: 400px;
-  margin-left: 100px;
-  left: 412px;
-  top: 527px;
-  bottom: 125px;
+  margin-right: 100px;
+  left: 550px;
+  top: 560px;
+  bottom: 100px;
   flex-direction: column;
   border: 2px solid rgba(4, 4, 4, 0.75);
   background: rgba(255, 133, 162, 0.7);
@@ -424,6 +416,7 @@
   box-sizing: border-box;
   display: inline-flex;
 }
+
 #check {
   size: 20px;
 }
