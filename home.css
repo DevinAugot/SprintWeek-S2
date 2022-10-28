@@ -4,7 +4,6 @@
   font-family: "Imbue", serif;
   box-sizing: border-box;
 }
-/* using mouse scroll on website not working properly not sure why  */
 
 #header1 {
   text-align: center;
@@ -141,7 +140,7 @@
   text-align: center;
 }
 
-.flex-container{
+.flex-item1{
   display: flex;
   align-items: center;
   flex-direction: row;
