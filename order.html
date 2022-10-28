@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gary Blue's Diner</title>
+    <link rel="icon" id="image/x-icon" href="./images/icon.jpg" />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body id="body2">
+    <div class="header">
+      <header>
+        <h1 id="header1">
+          <img
+            id="icon"
+            src="./images/icon.jpg"
+            alt="chefhead"
+          />&nbsp;&nbsp;&nbsp;&nbsp; Gary Blue's Diner est. 1960
+        </h1>
+        <div id="outer">
+          <div class="inner">
+            <button
+              id="btn1"
+              onclick="window.location.href='//127.0.0.1:5500/html/index.html';"
+            >
+              Our Menu
+            </button>
+          </div>
+          <div class="inner">
+            <button
+              id="btn2"
+              onclick="window.location.href='//127.0.0.1:5500/html/order.html';"
+            >
+              Order Online
+            </button>
+          </div>
+          <div class="inner">
+            <button 
+            id="btn3" 
+            onclick="window.location.href='//127.0.0.1:5500/html/home.html'"
+            >
+                Home
+            </button>
+        
+        </div>
+      </header>
+    </div>
+    <div id="window1">
+      <div id="window2">
+        <!-- need to get third window to resize and stay in place when window resizing -->
+        <div id="window3">
+          <div class="form-control">
+            <h2 id="custinfo"><u> Customer Information</u></h2>
+            <label for="name" id="label-name">Name: </label>
+            <!-- Input Type Text -->
+            <input type="text" id="name" placeholder="Enter your name" />
+          </div>
+          <br />
+          <div class="form-control">
+            <label for="address" id="address"> Address: </label>
+            <!-- Input Type Address-->
+            <input
+              type="address"
+              id="address2"
+              placeholder="Enter your address"
+            />
+          </div>
+          <br />
+          <div class="form-control">
+            <label for="coupon" id="coupon"> Credit Card: </label>
+            <!-- Input Type text(Credit card)-->
+            <input
+              type="text"
+              id="creditcard"
+              placeholder="Enter credit card #"
+            />
+          </div>
+          <button id="placeorder">Place Order!</button>
+        </div>
+        <div id="inputs">
+          <br />
+
+          <input id="check" type="checkbox" value="text" /> The Big Gary Chicken
+          Sandwhich
+          <!-- need to get proper spacing below instead of &nbsp -->
+          <label for="quantity" id="labelwords1">
+           
+            QTY</label
+          ><input type="number" id="qty" min="1" max="5" /><br /><br />
+          <input id="check" type="checkbox" value="text" />Touton Tacos
+          <label for="quantity" id="labelwords2"
+            >
+            QTY</label
+          ><input type="number" id="qty" min="1" max="5" /><br /><br />
+          <input id="check" type="checkbox" value="text" /> Ribs & Fries
+          <label for="quantity" id="labelwords3"
+            >
+            QTY</label
+          ><input type="number" id="qty" min="1" max="5" /><br /><br />
+          <input id="check" type="checkbox" value="text" /> Touton Poutine
+          <label for="quantity" id="labelwords4"
+            >
+            QTY</label
+          ><input type="number" id="qty" min="1" max="5" /><br /><br />
+          <input id="check" type="checkbox" value="text" /> The little Gary
+          Chicken Sandwhich
+          <label for="quantity" id="labelwords5"
+            >
+            QTY</label
+          ><input type="number" id="qty" min="1" max="5" /><br /><br />
+          <input id="check" type="checkbox" value="text" /> Taters & Gravy
+          <label for="quantity" id="labelwords6"
+            >
+            QTY</label
+          ><input type="number" id="qty" min="1" max="5" /><br /><br />
+          <input id="check" type="checkbox" value="text" /> Chicken Fingers &
+          Fries
+          <label for="quantity" id="labelwords7"
+            >
+            QTY</label
+          ><input type="number" id="qty" min="1" max="5" /><br /><br />
+          <input id="check" type="checkbox" value="text" /> Soup Of The Day
+          <label for="quantity" id="labelwords8"
+            >
+            QTY</label
+          ><input type="number" id="qty" min="1" max="5" /><br /><br />
+          <input id="check" type="checkbox" value="text" /> Mac & Cheese
+          <label for="quantity" id="labelwords9"
+            >
+            QTY</label
+          ><input type="number" id="qty" min="1" max="5" /><br /><br />
+          <input id="check" type="checkbox" value="text" /> Back To The Future
+          Submarine
+          <label for="quantity" id="labelwords10"
+            >
+            QTY</label
+          ><input type="number" id="qty" min="1" max="5" /><br /><br />
+          <input id="check" type="checkbox" value="text" /> Salad & Soup Combo
+          <label for="quantity" id="labelwords11"
+            >
+            QTY</label
+          ><input type="number" id="qty" min="1" max="5" /><br /><br />
+          <input id="check" type="checkbox" value="text" /> Kitchen Sink Special
+          <label for="quantity" id="labelwords12"
+            >
+            QTY</label
+          ><input type="number" id="qty" min="1" max="5" /><br /><br />
+        </div>
+      </div>
+    </div>
+    <hr />
+    
+    <footer id="foot">&copy;Devin Augot & Jacob Thomas 2022</footer>
+    <!-- <audio src="./audio/dinerAudio.mp3" autoplay loop></audio> -->
+
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,298 @@
+<!-- Author="Devin Augot & Jacob Thomas" -->
+<!--October , 2022 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <meta http-equiv="refresh" content="15" /> -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gary Blue's Diner</title>
+    <link rel="icon" id="image/x-icon" href="./images/icon.jpg" />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body id="body">
+    <div class="header">
+      <header>
+        <h1 id="header1">
+          <img
+            id="icon"
+            src="./images/icon.jpg"
+            alt="chefhead"
+          />&nbsp;&nbsp;&nbsp;&nbsp; Gary Blue's Diner est. 1960
+        </h1>
+        <div id="outer">
+          <div class="inner">
+            <button
+              id="btn1"
+              onclick="window.location.href='//127.0.0.1:5500/html/index.html'"
+            >
+              Our Menu
+            </button>
+          </div>
+          <div class="inner">
+            <button
+              id="btn2"
+              onclick="window.location.href='//127.0.0.1:5500/html/order.html';"
+            >
+              Order Online
+            </button>
+          </div>
+          <div class="inner">
+            <button 
+            id="btn3" 
+            onclick="window.location.href='//127.0.0.1:5500/html/home.html'"
+            >
+                Home
+            </button>
+        
+        </div>
+        
+      </header>
+    </div>
+
+    <div class="row">
+      <div
+        class="column"
+        onclick="openTab('b1');"
+        style="background: rgba(231, 90, 124, 0.9)"
+      >
+        The Big Gary Chicken Sandwich
+      </div>
+
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b1" class="containerTab" style="display: none">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <h2>The Big Gary Chicken Sandwich</h2>
+        <p>
+          Juicy fried chicken breast lightly battered on a brioche bun with mayo
+          and a pickle!
+        </p>
+      </div>
+      <div
+        class="column"
+        onclick="openTab('b2');"
+        style="background: rgba(231, 90, 124, 0.9)"
+      >
+        Ribs & Fries
+      </div>
+
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b2" class="containerTab" style="display: none">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <h2>Ribs & Fries</h2>
+        <p>
+          Ribs cooked to perfection and basted in house made BBQ sauce,with a
+          side of homestyle fries!
+        </p>
+      </div>
+      <div
+        class="column"
+        onclick="openTab('b3');"
+        style="background: rgba(231, 90, 124, 0.9)"
+      >
+        Touton Tacos
+      </div>
+
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b3" class="containerTab" style="display: none">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <h2>Touton Tacos</h2>
+        <p>
+          Homeade Touton dough with mexican ground beef, cheese, lettuce tomato!
+        </p>
+      </div>
+      <div
+        class="column"
+        onclick="openTab('b4');"
+        style="background: rgba(231, 90, 124, 0.9)"
+      >
+        Chicken Tenders & Fries
+      </div>
+
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b4" class="containerTab" style="display: none">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <h2>Chicken Tenders & Fries</h2>
+        <p>
+          Juicy fried chicken tenders lightly battered served with a side of
+          homestyle fries!
+        </p>
+      </div>
+      <div
+        class="column"
+        onclick="openTab('b5');"
+        style="background: rgba(231, 90, 124, 0.9)"
+      >
+        Mac And Cheese
+      </div>
+
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b5" class="containerTab" style="display: none">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <h2>Mac and Cheese</h2>
+        <p>
+          Made with the freshest pasta and cheese, perfect for any picky kid!
+        </p>
+      </div>
+      <div
+        class="column"
+        onclick="openTab('b6');"
+        style="background: rgba(231, 90, 124, 0.9)"
+      >
+        Touton Poutine
+      </div>
+
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b6" class="containerTab" style="display: none">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <h2>Touton Poutine</h2>
+        <p>
+          Made with homeade touton dough, topped with your choice of condiments,
+          dressing,gravy, quebec cheese curds!
+        </p>
+      </div>
+      <div
+        class="column"
+        onclick="openTab('b7');"
+        style="background: rgba(231, 90, 124, 0.9)"
+      >
+        Little Gary Chicken Sandwich
+      </div>
+
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b7" class="containerTab" style="display: none">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <h2>Little Gary Chicken Sandwich</h2>
+        <p>
+          Half of a juicy fried chicken breast lightly battered on a slider
+          style bun with mayo and a pickle!
+        </p>
+      </div>
+      <div
+        class="column"
+        onclick="openTab('b8');"
+        style="background: rgba(231, 90, 124, 0.9)"
+      >
+        Back To The Future Submarine
+      </div>
+
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b8" class="containerTab" style="display: none">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <h2>Back To The Future Submarine</h2>
+        <p>Your choice of deli meat and veggies on a homeade submarine bun!</p>
+      </div>
+      <div
+        class="column"
+        onclick="openTab('b9');"
+        style="background: rgba(231, 90, 124, 0.9)"
+      >
+        Soup Of The Day
+      </div>
+
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b9" class="containerTab" style="display: none">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <h2>Soup Of The Day</h2>
+        <p>
+          Soup of the day ranges from, pea soup to chicken noodle and so much
+          more just ask our waiter whats cookin!
+        </p>
+      </div>
+      <div
+        class="column"
+        onclick="openTab('b10');"
+        style="background: rgba(231, 90, 124, 0.9)"
+      >
+        Salad And Soup Combo
+      </div>
+
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b10" class="containerTab" style="display: none">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <h2>Salad and Soup Combo</h2>
+        <p>
+          Your Choice of our daily homeade soup and a choice of
+          garden/chef/ceaser salads!
+        </p>
+      </div>
+      <div
+        class="column"
+        onclick="openTab('b11');"
+        style="background: rgba(231, 90, 124, 0.9)"
+      >
+        Taters And Gravy
+      </div>
+
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b11" class="containerTab" style="display: none">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <h2>Taters And Gravy</h2>
+        <p>
+          Homeade taters topped with our house made gravy! youll love it! 😉
+        </p>
+      </div>
+      <div
+        class="column"
+        onclick="openTab('b12');"
+        style="background: rgba(231, 90, 124, 0.9)"
+      >
+        Kitchen Sink Special
+      </div>
+
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b12" class="containerTab" style="display: none">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <h2>Kitchen Sink Special</h2>
+        <p>
+          Gary's secret dish with all his favorite's, chicken tenders, tater's,
+          touton taco's and few secret menu items! youll have to try it to find
+          out! 😜
+        </p>
+      </div>
+    </div>
+
+    <hr />
+    
+    <!-- <audio src="./audio/dinerAudio.mp3" autoplay loop></audio> -->
+  <footer id="foot">&copy;Devin Augot & Jacob Thomas 2022</footer>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>
