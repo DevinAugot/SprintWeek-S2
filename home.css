@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,300&family=Kaushan+Script&family=Poppins:wght@300&display=swap");
+* {
+  /* flex-direction: content; */
+  font-family: "Imbue", serif;
+  box-sizing: border-box;
+}
+/* using mouse scroll on website not working properly not sure why  */
+
+#header1 {
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+  /* margin-bottom: 23px; */
+  width: fixed;
+  height: fixed;
+  margin-top: 0px;
+  background: rgba(46, 210, 245, 0.75);
+  mix-blend-mode: normal;
+  border: 4px solid #000000;
+  box-shadow: 0px 6px 8.53516px rgba(0, 0, 0, 0.25);
+
+  font-family: "Imbue", serif;
+  font-weight: 400;
+  font-size: 80px;
+
+  color: #000000;
+
+  text-shadow: 9px 8.53516px 2.13379px rgba(0, 0, 0, 0.25);
+}
+#icon {
+  border: 2px solid #000000;
+  /* margin-right: 50rem; */
+  /* need to align this picture better */
+  position: relative;
+  border-radius: 25px;
+  width: 120px;
+  height: 120px;
+}
+#btn1 {
+  text-align: center;
+
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 25px;
+
+  border: 1px solid rgba(4, 4, 4, 0.75);
+  cursor: pointer;
+  color: #030303;
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+  background-color: rgba(201, 21, 177, 0.839);
+}
+#btn2 {
+  text-align: center;
+
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 25px;
+
+  border: 1px solid rgba(4, 4, 4, 0.75);
+  cursor: pointer;
+  color: #030303;
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+  background-color: rgba(201, 21, 177, 0.839);
+}
+
+#outer {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.inner {
+  display: inline-block;
+  width: 25%;
+  margin-right: 25px;
+}
+#btn3 {
+  text-align: center;
+
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 25px;
+
+  border: 1px solid rgba(4, 4, 4, 0.75);
+  cursor: pointer;
+  color: #030303;
+  box-shadow: 0px 6px 10px rgb(0, 0, 0);
+  background-color: rgba(201, 21, 177, 0.839);
+}
+
+#pic1 {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  flex: auto;
+  position: relative;
+  background-attachment: fixed;
+}
+
+
+#body3 {
+  /* home page Styling */
+  background: url(/html/images/homepage.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#about {
+  max-width: 60rem;
+  border: #000000;
+  border-radius: 25px;
+  border-style: solid;
+  background-color: azure;
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+#img2 {
+  border-radius: 10px;
+}
+#dinerimage {
+  text-align: center;
+}
+
+#h1 {
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  border-style: solid;
+  width: fixed;
+  height: fixed;
+  background-color: #e75a7c;
+  opacity: 1;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#about #story {
+  font-size: larger;
+  text-align: center;
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+#hours {
+  font-size: large;
+  border: #000000;
+  border-radius: 25px;
+  border-style: solid;
+  background-color: azure;
+  opacity: 0.8;
+  width: 20rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+#hourstitle {
+  align-content: center;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  border-style: solid;
+  padding: 10px;
+  width: fixed;
+  height: fixed;
+  background-color: #e75a7c;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+}
+
+#hours #hoo {
+  text-align: center;
+}
+
+#loc {
+  font-size: large;
+  border: #000000;
+  border-radius: 25px;
+  border-style: solid;
+  background-color: azure;
+  opacity: 0.8;
+  width: 20rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+#loctitle {
+  align-content: center;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  border-style: solid;
+  padding: 10px;
+  width: fixed;
+  height: fixed;
+  background-color: #e75a7c;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+}
+
+#locname {
+  text-align: center;
+}
+/* review's */
+#rev {
+  font-size: large;
+  border: #000000;
+  border-radius: 25px;
+  border-style: solid;
+  background-color: azure;
+  opacity: 0.8;
+  max-width: 20rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+#revtitle {
+  align-content: center;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  border-style: solid;
+  padding: 10px;
+  width: fixed;
+  height: fixed;
+  background-color: #e75a7c;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+}
+
+#revname {
+  text-align: center;
+}
+
+
+#foot {
+  font-family: "Imbue", serif;
+  font-size: 1.4rem;
+  text-align: right;
+  color: rgb(240, 5, 5);
+}
