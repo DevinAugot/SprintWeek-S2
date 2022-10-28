@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,300&family=Kaushan+Script&family=Poppins:wght@300&display=swap");
 * {
-  /* flex-direction: content; */
   font-family: "Imbue", serif;
   box-sizing: border-box;
 }
@@ -9,7 +8,7 @@
   text-align: center;
   border-radius: 25px;
   padding: 10px;
-  /* margin-bottom: 23px; */
+
   width: fixed;
   height: fixed;
   margin-top: 0px;
@@ -28,8 +27,7 @@
 }
 #icon {
   border: 2px solid #000000;
-  /* margin-right: 50rem; */
-  /* need to align this picture better */
+
   position: relative;
   border-radius: 25px;
   width: 120px;
@@ -94,7 +92,6 @@
   background-attachment: fixed;
 }
 
-
 #body3 {
   /* home page Styling */
   background: url(/html/images/homepage.jpg);
@@ -140,7 +137,7 @@
   text-align: center;
 }
 
-.flex-item1{
+.flex-item1 {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -159,6 +156,7 @@
   width: 20rem;
   padding: 1rem;
   margin: auto;
+  margin-bottom: 0px;
 }
 
 #hourstitle {
@@ -191,6 +189,7 @@
   width: 20rem;
   padding: 1rem;
   margin: auto;
+  margin-bottom: 0px;
 }
 
 #loctitle {
@@ -223,6 +222,7 @@
   max-width: 20rem;
   padding: 1rem;
   margin: auto;
+  margin-bottom: 0px;
 }
 
 #revtitle {
@@ -244,7 +244,6 @@
 #revname {
   text-align: center;
 }
-
 
 #foot {
   font-family: "Imbue", serif;
